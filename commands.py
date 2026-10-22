@@ -151,7 +151,11 @@ def def_command():
     # -------- commands ---------
     elif command == "commands":
         print("Here are all the existing commands.\n")
-        print("help\ncommands\nlanguage\nadd an app\nadd a site\nyoutube\nweb telegram\ngithub\nchatgpt\nclaude\ntyperun\ngmail\nvirus total\ngoogle\ntwitch\nkick\npython\njetbrains\nweb spotify\nweb soundcloud\nnotepad\npycharm\ncode\ncmd\nexplorer\ncalculator\nchrome\ndiscord\ntelegram\nsteam\nvisual studio\nspotify\n")
+        print("""help               commands       youtube      web telegram      github         chatgpt
+claude             typerun        gmail        virus total       google         twitch
+kick               python         jetbrains    web spotify       soundcloud     visual studio
+notepad            pycharm        code         cmd               explorer       spotify
+calculator         chrome         discord      telegram          steam\n""")
         print("                                                                || Press any key to close. ||")
         msvcrt.getch()
         
