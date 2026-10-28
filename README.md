@@ -1,5 +1,6 @@
 ## OpenAssistant
 Your command‑line utility that allows you to open websites and apps with a single command!
+![Preview](assets/preview.jpg)
 
 ## How does it work?
 When you open the program, you will need to enter the name of the website  
